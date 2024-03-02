@@ -1,0 +1,49 @@
+.hero {
+  margin-top: 32px;
+}
+
+.hero.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero .title,
+.hero .text {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.14;
+
+  color: var(--color-primary-black);
+}
+
+.hero .gradient {
+  display: inline-block;
+  background-image: linear-gradient(120deg, #bd34fe 30%, #41d1ff);
+
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.hero .actions {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.hero .link {
+  display: inline-block;
+  
+  font-size: 24px;
+  font-weight: 500;
+  text-align: center;
+  white-space: nowrap;
+
+  transition: color 0.25s, border-color 0.25s, background-color 0.25s;
+}
+
+.hero .link:hover,
+.hero .link:focus {
+  color: #747bff;
+}

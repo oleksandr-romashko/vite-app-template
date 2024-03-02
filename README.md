@@ -1,7 +1,8 @@
 # Vanilla App Template
 
-Цей проект було створено за допомогою Vite. Для знайомства та налаштування
-додаткових можливостей [звернись до документації](https://vitejs.dev/).
+This project was created using Vite. To familiarize yourself with and configure additional features [refer to the documentation](https://vitejs.dev/).
+
+Created on the basis of the template [goitacademy/vanilla-app-template](https://github.com/goitacademy/vanilla-app-template).
 
 ## Створення репозиторію за шаблоном
 

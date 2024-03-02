@@ -1,0 +1,54 @@
+/* Bootstrap 5 Containers */
+/* responsive, fixed-width container */
+/* https://www.w3schools.com/bootstrap5/bootstrap_containers.php */
+
+.container {
+  width: 100%;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+@media only screen and (min-width: 360px) {
+  .container {
+    max-width: 324px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* Bootstrap Small container */
+@media only screen and (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+/* Bootstrap Medium container */
+@media only screen and (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+/* Bootstrap Large container */
+/* @media only screen and (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+} */
+
+/* Bootstrap X-Large container */
+/* @media only screen and (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+} */
+
+/* Bootstrap XX-Large container */
+@media only screen and (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
+}

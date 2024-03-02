@@ -1,18 +1,44 @@
 .header {
-  padding: 20px 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: var(--color-accent);
+}
+
+.header .container {
+  position: relative;
+}
+
+.header .lizard-icon {
+  position: absolute;
+  padding-right: 18px;
+  top: -16px;
+  right: 0;
+  fill:var(--color-accent-dark);
+  opacity: 1;
+}
+
+@media only screen and (min-width: 360px) {
+  .header .lizard-icon {
+    padding-right: 0;
+  }
 }
 
 .nav-list {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
   gap: 40px;
 }
 
 .nav-link {
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  line-height: 1.5;
+  position: relative;
+  padding-left: 26px;
+  font-weight: 600;
+}
+
+.nav-icon {
+  position: absolute;
+  left: 0;
+  bottom: 0;
 }
 
 .nav-link:hover,
