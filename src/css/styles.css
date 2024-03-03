@@ -2,7 +2,7 @@
 
 @import url('./basic/reset.css');
 @import url('./basic/common.css');
-@import url('./basic/container');
+@import url('./basic/container.css');
 
 @import url('./header.css');
 @import url('./hero.css');
