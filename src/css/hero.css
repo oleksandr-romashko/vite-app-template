@@ -40,7 +40,7 @@
   text-align: center;
   white-space: nowrap;
 
-  transition: color 0.25s, border-color 0.25s, background-color 0.25s;
+  transition: color 0.25s;
 }
 
 .hero .link:hover,
