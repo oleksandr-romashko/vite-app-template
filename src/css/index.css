@@ -1,4 +1,5 @@
 @import url('./../../node_modules/modern-normalize/modern-normalize.css');
+@import url('./../../node_modules/notiflix/dist/notiflix-3.2.7.min.css');
 
 @import url('./basic/reset.css');
 @import url('./basic/common.css');
