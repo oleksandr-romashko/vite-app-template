@@ -1,0 +1,12 @@
+.iziToast {
+  display: inline-flex;
+  margin-top: 0;
+  margin-bottom: 0;
+
+}
+
+.iziToast-capsule {
+  max-width: 768px;
+  margin-left: auto;
+  margin-right: auto;
+}
