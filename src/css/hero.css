@@ -8,6 +8,7 @@
 
 .hero .container::after {
   content: "";
+  z-index: -100;
   position: absolute;
   top: 0px;
   right: 0px; 
